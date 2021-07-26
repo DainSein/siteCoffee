@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Site coffe</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <div class="overlay"></div>
+    <header class="header">
+  <div class="header__container">
+    <div class="main">
+      <div class="main__container">
+        <div class="block-video">
+          <div class="block-video__wrapper">
+            <div class="block-video__png">
+              <div class="block-video__play-button"><span></span></div>
+              <div id="player" class="player">
+                <div class="player__wrap">
+                  <button class="player__close"><span>✖</span></button>
+                  <!-- <video id="video" src="video/coffee.mp4" class="player__video"></video> -->
+                  <video id="video" src="" class="player__video"></video>
+                  <div id="controls" class="play__controls">
+                    <div class="player__video-track">
+                      <div class="player__timeline"></div>
+                    </div>
+                    <div class="player__buttons">
+                      <button class="btn-reset  player__btn player__play">Play</button>
+                      <button class="btn-reset  player__btn player__pause">Pause</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="header__nav nav">
+          <div class="nav__logo logo">
+            <img src="./img/logo.png" alt="logo">
+          </div>
+          <a class="nav__cart cart" aria-label="cart">
+            <span class="cart__icon"></span>
+            <span class="cart__quantity">0</span>
+          </a>
+          <button class="burger" aria-label="Open menu">
+            <span></span>
+          </button>
+        </nav>
+        <div class="main__text-img"></div>
+      </div>
+    </div>
+    <aside class="sidebar">
+      <h1 class="sidebar__title">TRANG CHỦ</h1>
+      <ul class="sidebar__list">
+        <li class="sidebar__item"><a href="#coffee" class="sidebar__link">COFFEE</a></li>
+        <li class="sidebar__item"><a href="" class="sidebar__link">PHIN MẠ MÀU</a></li>
+        <li class="sidebar__item"><a href="#combo" class="sidebar__link">COMBO PHIN PHÊ</a></li>
+        <li class="sidebar__item"><a href="#giftset" class="sidebar__link">GIFTSET</a></li>
+        <li class="sidebar__item"><button class="btn-reset sidebar__link" data-modal>LIÊN HỆ</button></li>
+      </ul>
+    </aside>
+  </div>
+</header>
+
+    <section id="coffee" class="person-coffe">
+  <h2 class="title">Your Personalized Coffee</h2>
+  <h3 class="main-title">COFFEE BUILD YOUR BASE</h3>
+  <div class="person-coffe__coffe-blocks coffe-blocks">
+    <div class="coffe-blocks__block">
+      <div class="coffe-blocks__wrap-icon">
+        <div class="coffe-blocks__icon coffe-blocks__icon_1"></div>
+      </div>
+      <p class="coffe-blocks__desc">Nguồn gốc</p>
+      <p class="coffe-blocks__text">Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu chuẩn quốc tế.</p>
+    </div>
+    <div class="coffe-blocks__block">
+      <div class="coffe-blocks__wrap-icon">
+        <div class="coffe-blocks__icon coffe-blocks__icon_2"></div>
+      </div>
+      <p class="coffe-blocks__desc">Chất lượng</p>
+      <p class="coffe-blocks__text">Từng một hạt cà phê là cả một quá trình tập trung cao độ của nghệ nhân cà phê.</p>
+    </div>
+    <div class="coffe-blocks__block">
+      <div class="coffe-blocks__wrap-icon">
+        <div class="coffe-blocks__icon coffe-blocks__icon_3"></div>
+      </div>
+      <p class="coffe-blocks__desc">Các loại hạt</p>
+      <p class="coffe-blocks__text">70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng green bean.</p>
+    </div>
+    <div class="coffe-blocks__block">
+      <div class="coffe-blocks__wrap-icon">
+        <div class="coffe-blocks__icon coffe-blocks__icon_4"></div>
+      </div>
+      <p class="coffe-blocks__desc">Pha chế</p>
+      <p class="coffe-blocks__text">Những hạt cà phê được lột xác qua quá trình rang xay kỹ lưỡng và nghiêm ngặt.</p>
+    </div>
+    <button class="btn-reset btn-load">tải về thêm</button>
+  </div>
+</section>
+
+    <section class="favorite">
+  <div class="favorite__background"></div>
+  <h2 class="title">Choose Your Favorite</h2>
+  <h3 class="main-title favorite__main-title">CHUẨN GU ĐÚNG VỊ</h3>
+  <div class="swiper-container wrapper">
+    <div class="swiper-wrapper"></div>
+    <div class="swiper-button-prev arrow visible-hidden active"></div>
+    <div class="swiper-button-next arrow active"></div>
+  </div>
+</section>
+
+    <section id="giftset" class="giftset">
+  <div class="giftset__container">
+    <div class="giftset__background"></div>
+    <h2 class="title giftset__title">Best Gift For Best Friend</h2>
+    <h3 class="main-title giftset__main-title">GIFTSET</h3>
+    <div class="giftset__wrapper-card">
+      <div class="giftset__card-content card-content wrapper" data-target="one">
+        <img src="./img/giftset.png" alt="Giftset" class="card-content__img">
+        <div class="card-content__desc">
+          <span class="card-content__price">285.000</span>
+          <p class="card-content__caption">Giftset "Cà phê phin Việt Nam"</p>
+          <p class="card-content__text">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng
+            chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự
+            đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.</p>
+          <div class="card-content__block-meta">
+            <div class="meta">
+              <div class="meta__img meta__img_coffe"></div>
+              <div>
+                <span class="meta__text">Loại hạt</span>
+                <span class="meta__subtext">Fine Robusta Blend</span>
+              </div>
+            </div>
+            <div class="meta">
+              <div class="meta__img meta__img_mountains"></div>
+              <div>
+                <span class="meta__text">Độ cao</span>
+                <span class="meta__subtext">700 - 800mt</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-content__block-btns block-bnts">
+            <button class="btn_1 card-content__btn_1 btn-reset">MUA NGAY</button>
+            <button class="btn_2 card-content__btn_2 btn-reset" data-modal-product>CHI TIẾT</button>
+          </div>
+        </div>
+      </div>
+      <div class="giftset__card-content card-content hidden-block wrapper" data-target="two">
+        <img src="./img/giftset.png" alt="Giftset" class="card-content__img">
+        <div class="card-content__desc">
+          <span class="card-content__price">350.000</span>
+          <p class="card-content__caption">Giftset "Cà phê phin Việt Nam"</p>
+          <p class="card-content__text">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng
+            chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự
+            đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.</p>
+          <div class="card-content__block-meta">
+            <div class="meta">
+              <div class="meta__img meta__img_coffe"></div>
+              <div>
+                <span class="meta__text">Loại hạt</span>
+                <span class="meta__subtext">Fine Robusta Blend</span>
+              </div>
+            </div>
+            <div class="meta">
+              <div class="meta__img meta__img_mountains"></div>
+              <div>
+                <span class="meta__text">Độ cao</span>
+                <span class="meta__subtext">700 - 800mt</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-content__block-btns block-bnts">
+            <button class="btn_1 card-content__btn_1 btn-reset">MUA NGAY</button>
+            <button class="btn_2 card-content__btn_2 btn-reset" data-modal-product>CHI TIẾT</button>
+          </div>
+        </div>
+      </div>
+      <div class="giftset__card-content card-content hidden-block wrapper" data-target="three">
+        <img src="./img/giftset.png" alt="Giftset" class="card-content__img">
+        <div class="card-content__desc">
+          <span class="card-content__price">500.000</span>
+          <p class="card-content__caption">Giftset "Cà phê phin Việt Nam"</p>
+          <p class="card-content__text">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được Revo cẩn trọng
+            chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân nổi tiếng, cùng với tình yêu, sự
+            đam mê của người làm cà phê… tạo ra những tách cà phê tinh khiết chỉ dành riêng cho bạn.</p>
+          <div class="card-content__block-meta">
+            <div class="meta">
+              <div class="meta__img meta__img_coffe"></div>
+              <div>
+                <span class="meta__text">Loại hạt</span>
+                <span class="meta__subtext">Fine Robusta Blend</span>
+              </div>
+            </div>
+            <div class="meta">
+              <div class="meta__img meta__img_mountains"></div>
+              <div>
+                <span class="meta__text">Độ cao</span>
+                <span class="meta__subtext">700 - 800mt</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-content__block-btns block-bnts">
+            <button class="btn_1 card-content__btn_1 btn-reset">MUA NGAY</button>
+            <button class="btn_2 card-content__btn_2 btn-reset" data-modal-product>CHI TIẾT</button>
+          </div>
+        </div>
+      </div>
+      <div class="card-content__block-buttons">
+        <button class="card-content__btn btn-active" data-path="one">1</button>
+        <button class="card-content__btn" data-path="two">2</button>
+        <button class="card-content__btn" data-path="three">3</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <footer id="combo" class="combo">
+  <div class="combo__background"></div>
+  <h2 class="title">Your Personalized Coffee</h2>
+  <h3 class="main-title combo__main-title">COMBO PHIN PHÊ</h3>
+  <div class="swiperCombo-container">
+    <div class="swiper-wrapper wrapper"></div>
+    <div class="swiper-button-prev arrow visible-hidden"></div>
+    <div class="swiper-button-next arrow"></div>
+  </div>
+</footer>
+
+    <div class="modal">
+  <div class="modal__container">
+    <div data-close class="modal__close">✖</div>
+    <h2 class="modal__title">Chúng tôi sẽ liên lạc với cậu</h2>
+    <form action="" class="modal__form">
+      <input type="text" placeholder="Tên của bạn" name="name" required>
+      <input type="text" placeholder="Tên cuối cùng của bạn" name="surname" required>
+      <input type="tel" placeholder="Số điện thoại của bạn" name="phone" required>
+      <input type="email" placeholder="Địa chỉ email của bạn" name="email" required>
+      <button class="btn-reset btn_1 modal__btn">Liên lạc với tôi</button>
+    </form>
+  </div>
+</div>
+
+    <div class="modal-product">
+  <div class="modal-product__container">
+    <div data-close-product class="modal-product__close">✖</div>
+  </div>
+</div>
+
+    <small class="small">
+      <h5 class="info">© Revo Coffee Việt Nam - 2018</h5>
+    </small>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
